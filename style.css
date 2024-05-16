@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.calender-container{
+    background-color: plum;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+.month-name{
+    margin: 0;
+    background-color: black;
+    color: darkgray;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.day-name{
+    font-size: 20px;
+    color: black;
+}
+.day-number{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    color: whitesmoke;
+}
+.year{
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 500;
+    color: black;
+}
